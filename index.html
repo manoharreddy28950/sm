@@ -1,26 +1,62 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title>Task1</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+     
+     
+              }
+        #main{
+           
+           
+            display: grid;
+            grid-template-rows:1fr 1fr 1fr;
+            grid-template-columns:1fr 1fr 1fr;
+            row-gap: 40px;
+            text-align: center;
+            justify-items:center;
+            margin-top: 30px;
+           
+        }
+        #main a{
+            
+            border:2px solid black;
+            width:20%;
+            height: 100%;
+            text-decoration: none;
+            color:black;
+            text-align: center;
+            width:150px;
+            height:150px;
+           padding:10px;
+           justify-items: center;
+           column-gap: 10px;
+           background-color:hotpink;
+           border-radius: 10px;
+           box-shadow: 10px 10px lightblue;
+           font-size: 25px;
+           filter:drop-shadow(0);
+          }
+          #main a:hover{
+            background-color: coral;
+            transform:scale(1.2);
+          }
+
+
+    </style>
 </head>
 <body>
-<h1>HTML (HyperText Markup Language)</h1>
-<p>The foundation of web content, defining elements like headings, paragraphs, links, images, and forms</p>
-<hr>
-
-<h1>CSS (Cascading Style Sheets)</h1>
-<p>Defines visual presentation, such as layout, typography, colors, and animations.</p>
-<hr>
-
-<h1>JavaScript (JS):</h1>
-<p>Uses a virtual DOM for efficient updates.</p>
-<hr>
-
-<h1>React.js</h1>
-<p>The foundation of web content, defining elements like headings, paragraphs, links, images, and forms</p>
-<hr>
-<h1>Angular</h1>
-<p>Uses TypeScript for type-safe development.</p>
-
+    <div id="main">
+    <a href="day1/index.html">day1 </a>
+    <a href="day3/index.html">day3</a>
+    <a href="day4/index.html">day4</a>
+    <a href="day5/simple.html">day5</a>
+    <a href="day6/index.html">day6</a>
+    <a href="day7/index.html">day7</a>
+    <a href="day9/index.html">day9</a>
+    <a href="day10/index.html">day10</a>
+    <a href="day11/index.html">day11</a>
+   </div>
 </body>
 </html>
